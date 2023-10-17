@@ -1,0 +1,17 @@
+package org.comstudy.day01;
+
+public class Hello {
+	// (클래스의) 멤버 필드 변수(전역 변수)
+	// 변수 선언 시 데이터 타입 표시해야 함
+	String name = "홍길동";
+	public static void main(String[] args) {
+		// (메서드의) 로컬 변수(지역 변수)
+		String adress = "서울시 중구";
+		Integer age = 25;
+		
+		System.out.println("Hello world");
+		System.out.println("성명: " + name);
+		System.out.println("지역: " + age);
+	}
+
+}

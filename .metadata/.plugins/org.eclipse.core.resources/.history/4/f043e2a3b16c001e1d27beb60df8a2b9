@@ -1,0 +1,23 @@
+package org.comstudy.day01;
+
+// 클래스의 멤버에는 필드와 메서드가 있다.
+// 멤버에는 static과 static을 안 붙이는 것이 있다.
+public class Hello {
+	// (클래스의) 멤버 필드 변수(전역 변수)
+	// 변수 선언 시 데이터 타입 표시해야 함
+	static String name = "홍길동";
+	
+	// 멤버 메서드
+	public static void main(String[] args) {
+		// (메서드의) 로컬 변수(지역 변수)
+		String address = "서울시 중구";
+		Integer age = 25;
+		
+		System.out.println("Hello world");
+		System.out.println("성명: " + name);
+		System.out.println("주소: " + address);
+		System.out.println("나이: " + age);
+
+	}
+
+}

@@ -1,0 +1,20 @@
+package org.comstudy.day01.hw01;
+/*
+  제어문, for문
+// 번호, 성명, 이메일 , 나이
+
+ Person 클래스를 만들고 객체를 선언해서 객체에 입력받는다.
+ */
+
+// 하나의 파일에 여러 클래스를 선언 가능하다.
+
+class Person {
+	int id;
+	String name;
+	String email;
+	int age;
+}
+
+public class Hello3 {
+
+}
