@@ -1,9 +1,0 @@
-package org.comstudy.day01.hw01;
-/*
-  제어문, for문
- Person 클래스를 만들고 객체를 선언해서 객체에 입력받는다.
- */
-
-public class HomeWork {
-
-}
